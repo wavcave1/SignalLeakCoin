@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Signal Leak ($LEAK) — nothing stays secret on the blockchain." />
+  <title>Signal Leak ($LEAK)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-bg"></div>
+  <div class="scanlines"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top">SIGNAL LEAK</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#token">Token</a>
+      <a href="#how">How to Buy</a>
+      <a href="#links">Links</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">SOLANA MEME COIN</p>
+        <h1>Nothing stays secret on the blockchain.</h1>
+        <p class="subcopy">
+          Signal Leak is the cyber-frog of on-chain chaos — exposing wallet trails,
+          decoding blockchain chatter, and turning every trade into another leak.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://t.me/signalleakcoin" target="_blank" rel="noopener noreferrer">Join Telegram</a>
+          <a class="btn btn-secondary" href="https://x.com/Signalleakcoin" target="_blank" rel="noopener noreferrer">Follow on X</a>
+        </div>
+
+        <div class="contract-box" id="token">
+          <span class="label">Contract Address</span>
+          <div class="contract-row">
+            <code id="contractAddress">8zWTXovpXFVyzzNHM2Bo7UrV5oufreepGRWWDuWipump</code>
+            <button id="copyBtn" aria-label="Copy contract address">Copy</button>
+          </div>
+          <p id="copyMessage" class="copy-message" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="hero-card">
+          <img src="assets/frog-hero.png" alt="Signal Leak frog hacker artwork" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container two-col">
+      <div>
+        <p class="section-tag">THE NARRATIVE</p>
+        <h2>The frog that sees every transaction.</h2>
+        <p>
+          In a world full of hidden wallets, shady moves, and fake transparency,
+          Signal Leak appeared in the data stream. Part hacker, part whistleblower,
+          part internet legend — this frog follows the flow, tracks the movement,
+          and drops the receipts.
+        </p>
+        <p>
+          The mission is simple: build a culture around transparency, virality,
+          and clean momentum. No fake utility. No fake promises. Just a sharp story,
+          a strong community, and a coin people actually want to rally behind.
+        </p>
+      </div>
+
+      <div class="info-grid">
+        <article class="glass-card">
+          <h3>Ticker</h3>
+          <p>$LEAK</p>
+        </article>
+        <article class="glass-card">
+          <h3>Chain</h3>
+          <p>Solana</p>
+        </article>
+        <article class="glass-card">
+          <h3>Theme</h3>
+          <p>Cyberpunk / Blockchain / Transparency</p>
+        </article>
+        <article class="glass-card">
+          <h3>Status</h3>
+          <p>Live and spreading</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container stats-section">
+      <p class="section-tag">CORE SIGNALS</p>
+      <h2>Built for narrative, clarity, and shareability.</h2>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <span>01</span>
+          <h3>Recognizable branding</h3>
+          <p>A memorable frog hacker visual tied directly to the story.</p>
+        </article>
+        <article class="stat-card">
+          <span>02</span>
+          <h3>Simple message</h3>
+          <p>Easy to understand, easy to meme, and easy to repost.</p>
+        </article>
+        <article class="stat-card">
+          <span>03</span>
+          <h3>Instant trust cues</h3>
+          <p>Website, socials, and contract address displayed up front.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="section container buy-section">
+      <div class="buy-panel">
+        <p class="section-tag">HOW TO BUY</p>
+        <h2>Enter the leak.</h2>
+        <ol>
+          <li>Open your Solana wallet and fund it with SOL.</li>
+          <li>Go to the trading page where Signal Leak is listed.</li>
+          <li>Paste the contract address to verify you have the right token.</li>
+          <li>Join Telegram and follow X for community updates and memes.</li>
+        </ol>
+      </div>
+      <div class="buy-panel image-panel">
+        <img src="assets/cyber-bg.png" alt="Cyberpunk blockchain control room background" />
+      </div>
+    </section>
+
+    <section id="links" class="section container links-section">
+      <p class="section-tag">OFFICIAL LINKS</p>
+      <h2>Keep the signal clean.</h2>
+      <div class="links-grid">
+        <a class="link-card" href="https://x.com/Signalleakcoin" target="_blank" rel="noopener noreferrer">
+          <strong>X / Twitter</strong>
+          <span>@Signalleakcoin</span>
+        </a>
+        <a class="link-card" href="https://t.me/signalleakcoin" target="_blank" rel="noopener noreferrer">
+          <strong>Telegram</strong>
+          <span>t.me/signalleakcoin</span>
+        </a>
+        <a class="link-card" href="https://signalleak.xyz" target="_blank" rel="noopener noreferrer">
+          <strong>Website</strong>
+          <span>signalleak.xyz</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© <span id="year"></span> Signal Leak. All rights reserved.</p>
+    <p class="footer-note">Signal Leak is a meme coin project. Participate responsibly.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
